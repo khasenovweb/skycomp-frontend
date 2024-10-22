@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #00A3D4;
+}
+.navbar__links {
+    display: flex;
+    justify-content: center;
+    height: 55rem;
+    margin-top: 15rem;
+}
+.navbar__links ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    min-width: 100%;
+}
+.navbar__links ul a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 22rem;
+    padding-right: 22rem;
+    /* margin-left: 10px;
+    margin-right: 10px; */
+}

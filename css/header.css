@@ -1,0 +1,14 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25rem;
+}
+.header__line {
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+}
+
+

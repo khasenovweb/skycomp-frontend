@@ -1,0 +1,26 @@
+.hero {
+    padding-top: 81rem;
+    padding-bottom: 272rem;
+}
+.hero__text {
+
+}
+.hero__title {
+    font-size: 86rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: white;
+    padding-left: 6rem;
+}
+.hero__desc {
+    font-size: 26rem;
+    font-weight: 300;
+    margin-top: 14rem;
+    color: white;
+    line-height: 135%;
+    padding-left: 13rem;
+}
+.hero__btn {
+    margin-top: 36rem;
+    margin-left: 13rem;
+}

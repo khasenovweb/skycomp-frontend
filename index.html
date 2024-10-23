@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="fonts/Helvetica/stylesheet.css">
     <link rel="stylesheet" href="css/inline.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
 </head>
 <body>
     <!-- ============================================== -->
@@ -26,20 +28,42 @@
     <!-- ============================================== -->
     <section class="navbar">
         <div class="container">
-            <ul class="navbar__links">
+            <div class="navbar__links">
                 <ul>
-                    <li><a href="">О нас</a></li>
-                    <li><a href="">Услуги</a></li>
-                    <li><a href="">Портфолио</a></li>
-                    <li><a href="">Наши клиенты</a></li>
-                    <li><a href="">Режим работы</a></li>
-                    <li><a href="">Контакты</a></li>
+                    <li class="navbar__link active"><a href="">О нас</a></li>
+                    <li class="navbar__link"><a href="">Услуги</a></li>
+                    <li class="navbar__link"><a href="">Портфолио</a></li>
+                    <li class="navbar__link"><a href="">Наши клиенты</a></li>
+                    <li class="navbar__link"><a href="">Режим работы</a></li>
+                    <li class="navbar__link"><a href="">Контакты</a></li>
                 </ul>
-            </ul>
+            </div>
         </div>
     </section>
     <!-- ============================================== -->
     <!-- =============== END navbar =================== -->
+    <!-- ============================================== -->
+
+    <!-- ============================================== -->
+    <!-- ==================== hero ==================== -->
+    <!-- ============================================== -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero__text">
+                <h1 class="hero__title">IT-аутсорсинг</h1>
+                <p class="hero__desc">
+                    IT-обслуживание в Челябинске от 490 рублей <br>
+                    Среднее время начала работ по заявке  – 15 минут <br>
+                    Развернутый реестр выполненных работ <br>
+                    Подменное оборудование на время <br>
+                    ремонта – бесплатно
+                </p>
+                <button class="btn hero__btn">оставить заявку</button>
+            </div>
+        </div>
+    </section>
+    <!-- ============================================== -->
+    <!-- ================ END hero ==================== -->
     <!-- ============================================== -->
 </body>
 </html>

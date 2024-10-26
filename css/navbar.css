@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     height: 55rem;
-    margin-top: 13rem;
+    margin-top: 18rem;
 }
 .navbar__links ul {
     display: flex;
@@ -18,32 +18,25 @@
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    margin-left: 21rem;
-    margin-right: 21rem;
-    /* margin-left: 10px;
-    margin-right: 10px; */
+    margin-left: 22rem;
+    margin-right: 20rem;
 }
 .navbar__link.active {
-    margin-top: -10rem;
+    margin-top: -5rem;
 
 }
 .navbar__link.active a {
     font-size: 20rem;
     position: relative;
     border-bottom: 1px solid white;
-    padding-bottom: 10rem;
-    /* padding-top: 10rem; */
-    padding-left: 22rem;
-    padding-right: 22rem;
-
+    padding-bottom: 7rem;
+    padding-left: 24rem;
+    padding-right: 24rem;
 }
-/* .navbar__link.active a:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    display: block;
-    height: 1rem;
-    background-color: #fff;
-} */
+
+
+@media screen and (max-width: 550px) {
+    .navbar {
+        display: none;
+    }
+}

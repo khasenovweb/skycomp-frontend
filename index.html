@@ -8,62 +8,96 @@
     <link rel="stylesheet" href="css/inline.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/navbar__mobile.css">
     <link rel="stylesheet" href="css/hero.css">
 </head>
 <body>
-    <!-- ============================================== -->
-    <!-- =================== header =================== -->
-    <!-- ============================================== -->
-    <section class="header">
-        <div class="header__line"></div>
-        <img src="img/logo.svg" alt="" class="header__logo">
-        <div class="header__line"></div>
-    </section>
-    <!-- ============================================== -->
-    <!-- =================== header =================== -->
-    <!-- ============================================== -->
-    
-    <!-- ============================================== -->
-    <!-- =================== navbar =================== -->
-    <!-- ============================================== -->
-    <section class="navbar">
-        <div class="container">
-            <div class="navbar__links">
-                <ul>
-                    <li class="navbar__link active"><a href="">О нас</a></li>
-                    <li class="navbar__link"><a href="">Услуги</a></li>
-                    <li class="navbar__link"><a href="">Портфолио</a></li>
-                    <li class="navbar__link"><a href="">Наши клиенты</a></li>
-                    <li class="navbar__link"><a href="">Режим работы</a></li>
-                    <li class="navbar__link"><a href="">Контакты</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-    <!-- ============================================== -->
-    <!-- =============== END navbar =================== -->
-    <!-- ============================================== -->
+    <div class="global__wrapper">
+        <!-- ============================================== -->
+        <!-- =================== header =================== -->
+        <!-- ============================================== -->
+        <section class="header">
+            <a href="tel:89514518479" class="header_phone">
+                <img src="img/phone.svg" alt="">
+            </a>
+            <div class="header__line"></div>
+            <img src="img/logo.svg" alt="" class="header__logo">
+            <div class="header__line"></div>
+            <button class="header__burger">
+                <!-- <img src="img/burger.svg" alt=""> -->
+                <img src="img/burger-open.svg" alt="">
+            </button>
+        </section>
+        <!-- ============================================== -->
+        <!-- =================== header =================== -->
+        <!-- ============================================== -->
 
-    <!-- ============================================== -->
-    <!-- ==================== hero ==================== -->
-    <!-- ============================================== -->
-    <section class="hero">
-        <div class="container">
-            <div class="hero__text">
-                <h1 class="hero__title">IT-аутсорсинг</h1>
-                <p class="hero__desc">
-                    IT-обслуживание в Челябинске от 490 рублей <br>
-                    Среднее время начала работ по заявке  – 15 минут <br>
-                    Развернутый реестр выполненных работ <br>
-                    Подменное оборудование на время <br>
-                    ремонта – бесплатно
-                </p>
-                <button class="btn hero__btn">оставить заявку</button>
+        <!-- ============================================== -->
+        <!-- ============== navbar__mobile ================ -->
+        <!-- ============================================== -->
+        <section class="navbar__mobile">
+            <ul class="navbar__mobile__links">
+                <li><a href="">О нас</a></li>
+                <li><a href="">Услуги</a></li>
+                <li><a href="">Портфолио</a></li>
+                <li><a href="">Наши клиенты</a></li>
+                <li><a href="">Режим работы</a></li>
+                <li><a href="">+ 7 (932) 300-50-51</a></li>
+                <li><a href="">+ 7 (351) 221-22-23</a></li>
+                <li><a href="">zakaz@skycomp.ru</a></li>
+            </ul>
+        </section>
+        <!-- ============================================== -->
+        <!-- ========== END navbar__mobile ================ -->
+        <!-- ============================================== -->
+        
+        <!-- ============================================== -->
+        <!-- =================== navbar =================== -->
+        <!-- ============================================== -->
+        <section class="navbar">
+            <div class="container">
+                <div class="navbar__links">
+                    <ul>
+                        <li class="navbar__link active"><a href="">О нас</a></li>
+                        <li class="navbar__link"><a href="">Услуги</a></li>
+                        <li class="navbar__link"><a href="">Портфолио</a></li>
+                        <li class="navbar__link"><a href="">Наши клиенты</a></li>
+                        <li class="navbar__link"><a href="">Режим работы</a></li>
+                        <li class="navbar__link"><a href="">Контакты</a></li>
+                    </ul>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- ============================================== -->
-    <!-- ================ END hero ==================== -->
-    <!-- ============================================== -->
+        </section>
+        <!-- ============================================== -->
+        <!-- =============== END navbar =================== -->
+        <!-- ============================================== -->
+
+        <!-- ============================================== -->
+        <!-- ==================== hero ==================== -->
+        <!-- ============================================== -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero__img-mobile">
+                    <img src="img/hero__mobile.svg" alt="">
+                </div>
+                <div class="hero__text">
+                    <h1 class="hero__title">IT-аутсорсинг</h1>
+                    <p class="hero__desc">
+                        IT-обслуживание в Челябинске от 490 рублей <br>
+                        Среднее время начала работ по заявке  –  15 минут <br>
+                        Развернутый реестр выполненных работ <br>
+                        Подменное оборудование на время <br>
+                        ремонта – бесплатно
+                    </p>
+                    <button class="btn hero__btn">оставить заявку</button>
+                </div>
+                <img src="img/hero.png" alt="" class="hero__img">
+            </div>
+        </section>
+        <!-- ============================================== -->
+        <!-- ================ END hero ==================== -->
+        <!-- ============================================== -->
+    </div>
+    <link rel="stylesheet" href="css/main.css">
 </body>
 </html>

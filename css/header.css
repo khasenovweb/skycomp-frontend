@@ -11,4 +11,37 @@
     background-color: #fff;
 }
 
+.header__logo {
+    width: 133rem;
+    height: 103rem;
+}
 
+.header__burger {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+    display: none;
+}
+.header_phone {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    .header__logo {
+        width: 85rem;
+        height: 66rem;
+    }
+    .header {
+        padding-top: 19rem;
+        padding-left: 22rem;
+        padding-right: 22rem;
+    }
+    .header__burger {
+        display: flex;
+    }
+    .header_phone {
+        display: flex;
+    }
+}

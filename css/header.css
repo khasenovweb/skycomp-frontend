@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     padding-top: 25rem;
+    background-color: #00A3D4;
+    z-index: 3;
 }
 .header__line {
     height: 1px;
@@ -24,11 +26,23 @@
     background: none;
     display: none;
 }
+.header__burger.active .header__burger__icon__active{
+    display: block;
+}
+.header__burger.active .header__burger__icon{
+    display: none;
+}
+.header__burger__icon__active {
+    display: none;
+}
 .header_phone {
     display: none;
 }
 
 @media screen and (max-width: 550px) {
+    .global__wrapper {
+        padding-top: 84rem;
+    }
     .header__logo {
         width: 85rem;
         height: 66rem;
@@ -43,5 +57,11 @@
     }
     .header_phone {
         display: flex;
+    }
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
     }
 }

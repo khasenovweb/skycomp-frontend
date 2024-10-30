@@ -1,15 +1,32 @@
 
 .navbar__mobile {
     /* background-color: #00A3D4; */
-    background-color: green;
+    background-color: #00A3D4;
     padding-left: 36rem;
     padding-right: 36rem;
+    padding-top: 8rem;
+    padding-bottom: 23rem;
+    position: fixed;
+    top: 84rem;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    display: none;
+}
+.navbar__mobile.active {
+    display: block;
 }
 .navbar__mobile__links {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     list-style-type: none ;
+}
+.navbar__mobile__links li {
+    margin-bottom: 20.4rem;
+}
+.navbar__mobile__links li:last-child {
+    margin-bottom: 0;
 }
 .navbar__mobile__links li a {
     color: #ffffff;
@@ -19,4 +36,6 @@
     line-height: 33.6rem;
     text-align: center;
     text-transform: uppercase;
+    padding-right: 14rem;
+    border-right: 1rem solid #ffffff;
 }

@@ -1,6 +1,6 @@
 .hero {
     padding-top: 76rem;
-    padding-bottom: 272rem;
+    padding-bottom: 223rem;
 }
 .hero .container {
     position: relative;
@@ -47,6 +47,7 @@
     }
     .hero {
         padding-top: 64rem;
+        padding-bottom: 31rem;
     }
     .hero__title {
         font-size: 45rem;

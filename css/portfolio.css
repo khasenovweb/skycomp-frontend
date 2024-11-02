@@ -1,0 +1,111 @@
+
+.portfolio {
+    background-color: #fff;
+    padding-top: 102rem;
+}
+
+.protfolio__slider {
+    min-width: 100%;
+}
+.protfolio__slider__wrapper {
+    min-width: 100%;
+}
+.protfolio__slider__item__title {
+    font-size: 20rem;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.protfolio__slider__item__text {
+    font-size: 15rem;
+    font-weight: 300;
+    margin-top: 10rem;
+    line-height: 140%;
+}
+.protfolio__slider__item__images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 17rem;
+    margin-top: 21rem;
+}
+.protfolio__slider__item__image {
+    width: 100%;
+    padding-bottom: 101%;
+    border-radius: 10rem;
+    filter: saturate(0);
+    transition: filter 0.2s linear;
+}
+.protfolio__slider__item__image:last-child {
+    margin-right: 0;
+}
+
+.protfolio__slider__item__image:hover {
+    filter: saturate(1);
+}
+
+.portfolio__slider__dots__navs {
+    display: flex;
+    align-items: center;
+    margin-top: 24rem;
+}
+.portfolio__slider__dots {
+    flex-grow: 1;
+    height: 4rem;
+    background-color: #D9D9D940;
+    border-radius: 100rem;
+    display: flex;
+    align-items: center;
+}
+.portfolio__slider__dots .owl-dot{
+    flex-grow: 1;
+    border: none;
+    height: 4rem;
+    border-radius: 100rem;
+}
+.portfolio__slider__dots .owl-dot.active{
+    background-color: #00A3D4;
+}
+.portfolio__slider__navs {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+.portfolio__slider__navs button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    width: 45rem;
+    height: 48rem;
+    background: none;
+}
+
+.portfolio__slider__navs button:first-child {
+    margin-right: 5rem;
+}
+
+
+@media screen and (max-width: 550px){
+    .portfolio {
+        padding-top: 52rem;
+    }
+    .portfolio .sec__content {
+        grid-gap: 17rem;
+    }
+    .protfolio__slider__item__text {
+        margin-top: 13rem;
+    }
+    .protfolio__slider__item__images {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .protfolio__slider__item__image:last-child {
+        display: none;
+    }
+    .protfolio__slider__item__image {
+        padding-bottom: 106%;
+    }
+    .portfolio__slider__dots__navs {
+        margin-top: 11rem;
+    }
+}

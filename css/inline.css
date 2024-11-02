@@ -66,6 +66,9 @@ body {
     margin-left: 19rem;
     margin-right: 19rem;
 }
+.sec__content__right {
+    min-width: 100%;
+}
 
 
 
@@ -81,5 +84,11 @@ body {
     }
     .sec__content {
         grid-gap: 13rem;
+    }
+    .separator__img {
+        width: 70.79rem;
+        height: 58.26rem;
+        margin-left: 14rem;
+        margin-right: 14rem;
     }
 }

@@ -23,3 +23,13 @@ $('.about__block__slider').owlCarousel({
         }
     }
 });
+
+$('.protfolio__slider').owlCarousel({
+    items: 1,
+    // margin: 24,
+    nav: true,
+    dots: true,
+    navText: ["<img src='img/carousel-arrow-left.svg'>","<img src='img/carousel-arrow-right.svg' >"],
+    navContainer: '.portfolio__slider__navs',
+    dotsContainer: '.portfolio__slider__dots',
+});

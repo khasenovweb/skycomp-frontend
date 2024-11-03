@@ -1,0 +1,24 @@
+.formblocktitle {
+    background-color: #fff;
+    padding-top: 61rem;
+    padding-bottom: 29rem;
+}
+.formblocktitle .sec_title {
+    padding-left: 262rem;
+}
+.formblocktitle .sec_title br {
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    .formblocktitle {
+        padding-top: 52rem;
+        padding-bottom: 18rem;
+    }
+    .formblocktitle .sec_title {
+        padding-left: 0;
+    }
+    .formblocktitle .sec_title br {
+        display: block;
+    }
+}

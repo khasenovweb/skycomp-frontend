@@ -1,0 +1,120 @@
+.reviews {
+    background-color: #fff;
+    padding-top: 68rem;
+    padding-bottom: 99rem;
+}
+.reviews .sec_title {
+    margin-top: 2rem;
+}
+.reviews__slider__item {
+    border: 1px solid #393938;
+    border-radius: 12rem;
+    padding: 19rem 22rem 22rem 22rem;
+}
+.reviews__slider__item__fio {
+    font-size: 20rem;
+    text-transform: uppercase;
+}
+.reviews__slider__item__header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.reviews__slider__item__rating {
+    width: 90rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 4rem;
+}
+.reviews__slider__item__body p {
+    font-size: 15rem;
+    font-weight: 300;
+    margin-top: 16rem;
+    line-height: 140%;
+}
+.reviews__slider__item__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 14rem;
+}
+.reviews__slider__item__source {
+    font-size: 13rem;
+    font-weight: 300;
+    color: rgba(0,0,0,0.5);
+}
+.reviews__slider__item__link {
+    font-size: 13rem;
+    font-weight: 300;
+    color: rgba(0,0,0,0.5);
+    text-decoration: none;
+}
+
+
+.reviews__slider__dots__navs {
+    display: flex;
+    align-items: center;
+    margin-top: 24rem;
+}
+.reviews__slider__dots {
+    flex-grow: 1;
+    height: 4rem;
+    background-color: #D9D9D940;
+    border-radius: 100rem;
+    display: flex;
+    align-items: center;
+}
+.reviews__slider__dots .owl-dot{
+    flex-grow: 1;
+    border: none;
+    height: 4rem;
+    border-radius: 100rem;
+}
+.reviews__slider__dots .owl-dot.active{
+    background-color: #00A3D4;
+}
+.reviews__slider__navs {
+    display: flex;
+    align-items: center;
+    margin-left: 10rem;
+}
+.reviews__slider__navs button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    width: 45rem;
+    height: 48rem;
+    background: none;
+}
+.reviews__slider__navs button:first-child {
+    margin-right: 5rem;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .reviews {
+        background-color: #fff;
+        padding-top: 27rem;
+        padding-bottom: 47rem;
+    }
+    .reviews__slider {
+        margin-top: 4rem;
+    }
+    .reviews__slider__item {
+        padding: 22rem 20rem 19rem 20rem;
+    }
+    .reviews__slider__item__footer {
+        margin-top: 17rem;
+    }
+    .reviews__slider__dots__navs {
+        margin-top: 17rem;
+    }
+    .reviews__slider__navs button:first-child {
+        margin-right: 3rem;
+    }
+}

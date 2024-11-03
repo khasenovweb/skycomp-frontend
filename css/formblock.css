@@ -3,6 +3,10 @@
     padding-top: 37rem;
     padding-bottom: 41rem;
 }
+.formblock_text {
+    padding-bottom: 33rem;
+
+}
 .formblock .container {
     padding-left: 279rem;
 }
@@ -69,6 +73,13 @@
     margin-left: 8rem;
     margin-right: 8rem;
 }
+.formblock__form__text {
+    font-size: 15rem;
+    font-weight: 300;
+    line-height: 130%;
+    margin-bottom: 11rem;
+    color: #ffffff;
+}
 
 
 @media screen and (max-width: 550px) {
@@ -105,5 +116,9 @@
     .formblock__form__buttonblock__socialicons span {
         margin-left: 14rem;
         margin-right: 18rem;
+    }
+    .formblock__form__text {
+        line-height: 135%;
+        margin-bottom: 20rem;
     }
 }

@@ -87,3 +87,12 @@ $('.reviews__slider').owlCarousel({
         } 
     }
 });
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+.mapblock {
+    padding-top: 49rem;
+    color: #fff;
+}
+.mapblock__map {
+    height: 366rem;
+    width: 100%;
+    border-radius: 12rem;
+    overflow: hidden;
+    margin-top: -2rem;
+}
+.mapblock__map__text {
+    font-size: 18rem;
+    font-weight: 300;
+    margin-top: 33rem;
+    line-height: 135%;
+}
+
+
+
+@media screen and (max-width: 550px) {
+    .mapblock {
+        padding-top: 24rem;
+    }
+    .mapblock__map {
+        margin-top: 5rem;
+    }
+    .mapblock__map__text {
+        font-size: 15rem;
+        margin-top: 20rem;
+    }
+    .mapblock__map__text br:first-child {
+        display: none;
+    }
+}

@@ -27,7 +27,6 @@
 }
 .navbar__link.active {
     margin-top: -5rem;
-
 }
 .navbar__link.active a {
     font-size: 20rem;
@@ -36,6 +35,15 @@
     padding-bottom: 7rem;
     padding-left: 24rem;
     padding-right: 24rem;
+}
+.navbar__link a.mPS2id-highlight-last {
+    font-size: 20rem;
+    position: relative;
+    border-bottom: 1px solid white;
+    padding-bottom: 7rem;
+    padding-left: 24rem;
+    padding-right: 24rem;
+    margin-top: -5rem;
 }
 
 

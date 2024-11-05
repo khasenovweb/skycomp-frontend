@@ -14,6 +14,7 @@ $('.about__block__slider').owlCarousel({
     navText: ["<img src='img/carousel-arrow-left.svg'>","<img src='img/carousel-arrow-right.svg' >"],
     navContainer: '.about__block__slider__navs',
     dotsContainer: '.about__block__slider__dots',
+    dotsEach: true,
     responsive: {
         0: {
             items: 1
@@ -32,6 +33,7 @@ $('.protfolio__slider').owlCarousel({
     navText: ["<img src='img/carousel-arrow-left.svg'>","<img src='img/carousel-arrow-right.svg' >"],
     navContainer: '.portfolio__slider__navs',
     dotsContainer: '.portfolio__slider__dots',
+    dotsEach: true,
 });
 $('.partners__slider').owlCarousel({
     margin: 20,
@@ -39,6 +41,7 @@ $('.partners__slider').owlCarousel({
     dots: true,
     // autoWidth: true,
     navText: ["<img src='img/carousel-arrow-left.svg'>","<img src='img/carousel-arrow-right.svg' >"],
+    dotsEach: true,
     responsive: {
         0: {
             items: 2,
@@ -57,6 +60,7 @@ $('.thankyouletter__slider').owlCarousel({
     margin: 2,
     nav: false,
     dots: true,
+    dotsEach: true,
     navText: ["<img src='img/carousel-arrow-left.svg'>","<img src='img/carousel-arrow-right.svg' >"],
     responsive: {
         0: {
@@ -76,6 +80,7 @@ $('.reviews__slider').owlCarousel({
     navText: ["<img src='img/carousel-arrow-left.svg'>","<img src='img/carousel-arrow-right.svg' >"],
     navContainer: '.reviews__slider__navs',
     dotsContainer: '.reviews__slider__dots',
+    dotsEach: true,
     responsive: {
         0: {
             items: 1,
@@ -90,9 +95,23 @@ $('.reviews__slider').owlCarousel({
 
 
 
+// $("[data-scroll]").mPageScroll2id({
+//     offset: 100,
+//     scrollSpeed: 900,
+//     keepHighlightUntilNext: true,
+//     onStart:function(){
+//         $('.navbar__mobile').removeClass('active');
+//         $('.header__burger').removeClass('active');
+//     }
+// });
 
-
-
-
-
-
+$('.preims__tab__content__item').hide();
+$('.preims__tab__content__item').eq(0).show();
+$('.preims__tab__link').click(function() {
+    $('.preims__tab__link').removeClass('active');
+    $(this).addClass('active');
+    var index = $(this).index();
+    $('.preims__tab__content__item').hide();
+    $('.preims__tab__content__item').eq(index).show();
+    console.log($('.preims__tab__content__item').eq(index));
+});

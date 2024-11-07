@@ -28,6 +28,13 @@ body {
     padding: 12rem 66rem 17rem 66rem;
     text-transform: uppercase;
     font-size: 20rem;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+.btn-blue {
+    background-color: #00A3D4;
+    color: #ffffff;
 }
 .sec_title {
     font-size: 28rem;

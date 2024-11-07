@@ -65,7 +65,9 @@
         display: none;
     }
     .workmode__mobile {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .workmode {
         padding-top: 52rem;

@@ -50,10 +50,16 @@
         padding: 0;
         margin-top: 22rem;
     }
-    .thankyouletter__slider .owl-stage-outer .owl-stage {
+    /* .thankyouletter__slider .owl-stage-outer .owl-stage {
         height: 292rem;
-    }
+    } */
     .thankyouletter__slider .owl-item.center {
         transform: scale(1.8);
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .thankyouletter__slider .owl-stage-outer .owl-stage {
+        height: 292rem;
     }
 }

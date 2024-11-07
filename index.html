@@ -6,22 +6,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="fonts/Helvetica/stylesheet.css">
     <link rel="stylesheet" href="css/libs/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/inline.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/navbar__mobile.css">
-    <link rel="stylesheet" href="css/hero.css">
-    <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/formblock.css">
-    <link rel="stylesheet" href="css/preims.css">
-    <link rel="stylesheet" href="css/portfolio.css">
-    <link rel="stylesheet" href="css/partners.css">
-    <link rel="stylesheet" href="css/formblocktitle.css">
-    <link rel="stylesheet" href="css/thankyouletter.css">
-    <link rel="stylesheet" href="css/reviews.css">
-    <link rel="stylesheet" href="css/workmode.css">
-    <link rel="stylesheet" href="css/mapblock.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/inline.css?v=2">
+    <link rel="stylesheet" href="css/header.css?v=2">
+    <link rel="stylesheet" href="css/navbar.css?v=2">
+    <link rel="stylesheet" href="css/navbar__mobile.css?v=2">
+    <link rel="stylesheet" href="css/hero.css?v=2">
+    <link rel="stylesheet" href="css/about.css?v=2">
+    <link rel="stylesheet" href="css/formblock.css?v=2">
+    <link rel="stylesheet" href="css/preims.css?v=2">
+    <link rel="stylesheet" href="css/portfolio.css?v=2">
+    <link rel="stylesheet" href="css/partners.css?v=2">
+    <link rel="stylesheet" href="css/formblocktitle.css?v=2">
+    <link rel="stylesheet" href="css/thankyouletter.css?v=2">
+    <link rel="stylesheet" href="css/reviews.css?v=2">
+    <link rel="stylesheet" href="css/workmode.css?v=2">
+    <link rel="stylesheet" href="css/mapblock.css?v=2">
+    <link rel="stylesheet" href="css/footer.css?v=2">
+    <link rel="stylesheet" href="css/modal.css?v=2">
 </head>
 <body>
     <div class="global__wrapper">
@@ -80,7 +81,12 @@
                         <li class="navbar__link"><a href="#portfolio" data-scroll>Портфолио</a></li>
                         <li class="navbar__link"><a href="#partners" data-scroll>Наши клиенты</a></li>
                         <li class="navbar__link"><a href="#workmode" data-scroll>Режим работы</a></li>
-                        <li class="navbar__link"><a href="#mapblock" data-scroll>Контакты</a></li>
+                        <li class="navbar__link"><a href="" data-navbar-contacts="show">Контакты</a></li>
+                        <div class="navbar__links__contacts" style="display: none;">
+                            <a href="mailto:zakaz@skycomp.ru" class="navbar__links__contact">zakaz@skycomp.ru</a>
+                            <a href="tel:+ 7 (932) 300-50-51" class="navbar__links__contact">+ 7 (932) 300-50-51</a>
+                            <a href="tel:+ 7 (351) 221-22-23" class="navbar__links__contact">+ 7 (351) 221-22-23</a>
+                        </div>
                     </ul>
                 </div>
             </div>
@@ -106,7 +112,7 @@
                         Подменное оборудование на время <br>
                         ремонта – бесплатно
                     </p>
-                    <button class="btn hero__btn">оставить заявку</button>
+                    <a href="#formblock" class="btn hero__btn" data-scroll="">оставить заявку</a>
                 </div>
                 <img src="img/hero.png" alt="" class="hero__img">
             </div>
@@ -195,7 +201,7 @@
                 </div>
                 <div class="about__block">
                     <div class="about__block__title"></div>
-                    <div class="about__block__title">
+                    <div class="about__block__title" id="formblock">
                         БЕСПЛАТНАЯ консультациЯ <span class="mute">специалиста</span>
                     </div>
                 </div>
@@ -210,7 +216,7 @@
         <!-- ============================================== -->
         <section class="formblock">
             <div class="container">
-                <form class="formblock__form" action="">
+                <form class="formblock__form" action="" data-contact-form>
                     <div class="formblock__form__inputblock">
                         <input type="text" name="fio" placeholder="ФИО">
                     </div>
@@ -218,7 +224,7 @@
                         <input type="tel" name="phone" placeholder="НОМЕР ТЕЛЕФОНА">
                     </div>
                     <div class="formblock__form__buttonblock">
-                        <button class="btn formblock__form__submitbutton">Оставить заявку</button>
+                        <button type="submit" class="btn formblock__form__submitbutton">Оставить заявку</button>
                         <span class="formblock__form__buttonblock__text">или написать в</span>
                         <div class="formblock__form__buttonblock__socialicons">
                             <a href="">
@@ -391,11 +397,19 @@
         <!-- ============================================== -->
         <section class="formblock formblock_text">
             <div class="container">
-                <form class="formblock__form" action="">
+                <form class="formblock__form" action="" data-contact-form>
                     <p class="formblock__form__text">
                         Перед началом сотрудничества предлагаем вам оценить качество наших услуг. Мы готовы бесплатно выполнить вашу задачу удаленно, если её решение займет не более одного часа.
                         Оцените результат и примите решение о дальнейшем сотрудничестве.
                     </p>
+                    <div class="formblock_text__inputs">
+                        <div class="formblock__form__inputblock">
+                            <input type="text" name="fio" placeholder="ФИО">
+                        </div>
+                        <div class="formblock__form__inputblock">
+                            <input type="tel" name="phone" placeholder="НОМЕР ТЕЛЕФОНА">
+                        </div>
+                    </div>
                     <div class="formblock__form__buttonblock">
                         <button type="button" class="btn formblock__form__submitbutton">Оставить заявку</button>
                         <span class="formblock__form__buttonblock__text">или написать в</span>
@@ -923,12 +937,12 @@
                     </div>
                     <div class="footer__nav">
                         <ul>
-                            <li><a href="">о нас</a></li>
-                            <li><a href="">услуги</a></li>
-                            <li><a href="">портфолио</a></li>
-                            <li><a href="">наши клиенты</a></li>
-                            <li><a href="">режим работы</a></li>
-                            <li><a href="">как добраться</a></li>
+                            <li><a href="#about" data-scroll>о нас</a></li>
+                            <li><a href="#services" data-scroll>услуги</a></li>
+                            <li><a href="#portfolio" data-scroll>портфолио</a></li>
+                            <li><a href="#partners" data-scroll>наши клиенты</a></li>
+                            <li><a href="#workmode" data-scroll>режим работы</a></li>
+                            <li><a href="#contacts" data-scroll>как добраться</a></li>
                         </ul>
                     </div>
                     <div class="footer__socials">
@@ -960,12 +974,41 @@
         <!-- ============================================== -->
         <!-- =================== header =================== -->
         <!-- ============================================== -->
+
+
+
+        <!-- ============================================== -->
+        <!-- =================== modals =================== -->
+        <!-- ============================================== -->
+        <section class="modal__wrapper" style="display: none;" data-modal="success">
+            <div class="modal">
+                <svg width="73" height="74" viewBox="0 0 73 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_94_1230)">
+                    <path d="M56.21 34.6673C54.9932 22.4115 46.4919 14.9573 36.5 14.9573C27.0557 14.9573 20.9729 21.5547 18.98 28.0973C10.7675 28.9185 3.65002 34.0637 3.65002 43.4273C3.65002 52.461 11.0413 58.7573 20.075 58.7573H55.6625C63.1907 58.7573 69.35 55.0014 69.35 46.7123C69.35 38.5244 62.0957 34.9739 56.21 34.6673Z" stroke="#00A3D4" stroke-width="4.38" stroke-linejoin="round"/>
+                    <path d="M44.8494 30.2874L30.0943 47.8074L23.7706 40.7994" stroke="#00A3D4" stroke-width="4.38" stroke-linecap="round" stroke-linejoin="round"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_94_1230">
+                    <rect width="70.08" height="70.08" fill="white" transform="translate(1.46002 1.81726)"/>
+                    </clipPath>
+                    </defs>
+                </svg>
+                <div class="modal__title">
+                    Ваша заявка <br>
+                    успешно отправлена
+                </div>
+                <button class="btn btn-blue" data-modal-close="success">OK</button>
+            </div>
+        </section>
+        <!-- ============================================== -->
+        <!-- =============== END modals =================== -->
+        <!-- ============================================== -->
     </div>
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css?v=2">
     <script src="js/libs/jquery-3.7.1.min.js"></script>
     <script src="js/libs/owl.carousel.min.js"></script>
     <script src="js/libs/scroll.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/main.js?v=2"></script>
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=7f7f22da-7c0d-4ad2-b805-81720021b7c1" type="text/javascript"></script>
     <script type="text/javascript">
         var markers = [

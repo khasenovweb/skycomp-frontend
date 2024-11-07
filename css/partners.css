@@ -19,6 +19,11 @@
 .partners__slider__item {
     height: 128rem;
     width: auto;
+    filter: saturate(0);
+    transition: 0.2s;
+}
+.partners__slider__item:hover {
+    filter: saturate(1);
 }
 
 

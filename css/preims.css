@@ -44,6 +44,9 @@
 }
 
 .preims__tab__content__item__img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     width: 100%;
     padding-bottom: 38.7%;
     border-radius: 12rem;

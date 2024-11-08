@@ -77,6 +77,10 @@ body {
     min-width: 100%;
 }
 
+.bg-white {
+    background-color: #fff;
+}
+
 
 
 @media screen and (max-width: 550px) {

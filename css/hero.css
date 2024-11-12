@@ -17,11 +17,19 @@
 }
 .hero__desc {
     font-size: 26rem;
-    font-weight: 300;
+    font-weight: 400;
     margin-top: 14rem;
     color: white;
     line-height: 135%;
     padding-left: 13rem;
+}
+.hero__desc * {
+    font-size: 26rem;
+    font-weight: 400;
+}
+.hero__desc strong {
+    font-size: 26rem;
+    font-weight: 600;
 }
 .hero__btn {
     margin-top: 36rem;
@@ -58,6 +66,9 @@
         font-size: 15rem;
         padding-left: 0;
         line-height: 21.25rem;
+    }
+    .hero__desc strong {
+        font-size: 15rem;
     }
     .hero__img {
         display: none;

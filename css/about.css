@@ -20,7 +20,7 @@
 }
 .about__block__title {
     font-size: 28rem;
-    font-weight: 300;
+    font-weight: 400;
     text-align: left;
     text-transform: uppercase;
 }
@@ -32,7 +32,7 @@
 }
 .about__block__text {
     font-size: 18rem;
-    font-weight: 300;
+    font-weight: 400;
     text-align: left;
     line-height: 140%;
     color: black;
@@ -181,7 +181,7 @@
     .about__block__slider__item__textblock__desc {
         font-size: 15rem;
         margin-top: 12rem;
-        font-weight: 300;
+        font-weight: 400;
         line-height: 140%;
     }
     .about__block__title {

@@ -31,6 +31,8 @@ body {
     display: inline-block;
     text-decoration: none;
     cursor: pointer;
+    text-align: center;
+    font-weight: 400;
 }
 .btn-blue {
     background-color: #00A3D4;
@@ -38,7 +40,7 @@ body {
 }
 .sec_title {
     font-size: 28rem;
-    font-weight: 400;
+    font-weight: 300;
     text-align: left;
     text-transform: uppercase;
 }

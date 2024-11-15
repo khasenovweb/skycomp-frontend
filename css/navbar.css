@@ -31,6 +31,7 @@
     text-transform: uppercase;
     margin-left: 22rem;
     margin-right: 20rem;
+    font-weight: 400;
 }
 /* .navbar__link.active {
     margin-top: -5rem;

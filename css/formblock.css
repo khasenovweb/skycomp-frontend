@@ -23,6 +23,7 @@
     height: 37rem;
     background: none;
     border: none;
+    border-radius: 0;
     border-bottom: 1.6rem solid #ffffff;
     font-size: 20rem;
     font-weight: 400;

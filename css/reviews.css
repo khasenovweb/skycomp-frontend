@@ -14,6 +14,7 @@
 .reviews__slider__item__fio {
     font-size: 20rem;
     text-transform: uppercase;
+    font-weight: 400;
 }
 .reviews__slider__item__header {
     display: flex;
@@ -29,7 +30,7 @@
 }
 .reviews__slider__item__body p {
     font-size: 15rem;
-    font-weight: 400;
+    font-weight: 300;
     margin-top: 16rem;
     line-height: 140%;
 }

@@ -6,6 +6,8 @@
     padding-top: 25rem;
     background-color: #00A3D4;
     z-index: 3;
+
+    position: relative;
 }
 .header__line {
     height: 1px;
@@ -41,14 +43,17 @@
 
 @media screen and (max-width: 550px) {
     .global__wrapper {
-        padding-top: 84rem;
+        /* padding-top: 84rem; */
     }
     .header__logo {
         width: 85rem;
         height: 66rem;
     }
     .header {
-        padding-top: 19rem;
+        /* padding-top: 19rem; */
+        margin-top: 14rem;
+        padding-top: 5.5rem;
+        padding-bottom: 5.5rem;
         padding-left: 22rem;
         padding-right: 22rem;
     }
@@ -59,9 +64,11 @@
         display: flex;
     }
     .header {
-        position: fixed;
+        /* position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: 100%; */
+        position: sticky;
+        top: 0;
     }
 }

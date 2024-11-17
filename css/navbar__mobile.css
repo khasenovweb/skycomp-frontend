@@ -7,11 +7,13 @@
     padding-top: 8rem;
     padding-bottom: 23rem;
     position: fixed;
-    top: 84rem;
+    top: 76rem;
     left: 0;
     width: 100%;
     z-index: 3;
     display: none;
+    
+    position: absolute;
 }
 .navbar__mobile.active {
     display: block;
